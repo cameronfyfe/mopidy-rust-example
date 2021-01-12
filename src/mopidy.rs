@@ -40,7 +40,7 @@ impl Client {
                 .post(&self.api_url)
                 .header("Content-Type", "application/json")
                 .body(
-                    serde_json::to_string(&MethodCall {
+                    serde_json::to_string(&ApiCall {
                         jsonrpc: "2.0".to_string(),
                         id: 1,
                         method: method.to_string(),
@@ -64,7 +64,7 @@ impl Client {
 
 /// POST body json for requests to Mopidy API
 #[derive(Serialize, Deserialize)]
-struct MethodCall {
+struct ApiCall {
     jsonrpc: String,
     id: i32,
     method: String,
