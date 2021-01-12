@@ -1,3 +1,5 @@
+**This software requested and paid for by www.Nerdit.uk**
+
 This code is an example project for querying playback state from a Mopidy server.  
 (code for dealing with API in src/mopidy.rs)
 

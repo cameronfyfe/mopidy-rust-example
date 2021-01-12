@@ -2,6 +2,10 @@
 //! author: Cameron Fyfe, cameron.j.fyfe@gmail.com
 //! Jan 11 2021
 //!
+//! +-------------------------------------------------------+
+//! | This software requested and paid for by www.Nerdit.uk |
+//! +-------------------------------------------------------+
+//!
 //! This code is an example project for querying playback state from a Mopidy server.
 //! (code for dealing with API in src/mopidy.rs)
 //!
